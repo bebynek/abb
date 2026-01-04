@@ -8,6 +8,10 @@ url = '/de/kontakt/'
 
 <p style="font-size: 30px; font-weight: bold;">Kontakt</p>
 
+Kontaktieren Sie mich für Projekte, Kooperationen oder Beratung.
+
+Ich freue mich auf Ihre Anfrage.
+
 <!-- Contact form: replace the action URL with your Formspree endpoint (https://formspree.io/f/YOUR_FORM_ID) or follow the Netlify instructions below -->
 <form id="contact-form" method="POST" action="https://formspree.io/f/YOUR_FORM_ID">
   <label for="name">Name</label>
