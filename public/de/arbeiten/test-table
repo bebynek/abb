@@ -1,0 +1,7 @@
++++
+title = "Table Test"
+date = 2025-05-25
++++
+
+{{< table headers="Name,Age,City" rows="Alice|24|NY;Bob|30|LA;Charlie|28|SF" >}}
+

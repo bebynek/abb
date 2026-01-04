@@ -1,0 +1,44 @@
+<header>
+  <div class="logo h-card">
+    <a class="u-url" href="{{ .Site.Home.Permalink }}">
+      <img alt="Site Logo" class="site-logo u-photo" src="{{ $.Site.Params.logo | default "/images/logo.png" }}"/>
+    </a>
+  </div>
+  <nav class="menu">
+    <ul>
+      {{- range .Site.Menus.main }}
+        <li>
+          <a href="{{ .URL |relLangURL}}">{{ .Name }}</a>
+        </li>
+      {{- end }}
+
+      <!-- 🌐 Language Dropdown -->
+      <li class="lang-dropdown">
+        <a href="#" class="lang-toggle">
+            {{ if eq .Site.Language.Lang "en" }}EN
+  {{ else if eq .Site.Language.Lang "de" }}DE
+  {{ else if eq .Site.Language.Lang "pl" }}PL
+  {{ else if eq .Site.Language.Lang "es" }}ES
+  {{ else }}{{ .Site.Language.Lang | upper }}
+  {{ end }}
+        </a>
+        <ul class="lang-submenu">
+          {{- range .Site.Languages }}
+            {{- if ne .Lang $.Site.Language.Lang }}
+              <li>
+                <a href="{{ urls.JoinPath "/" .Lang }}">
+                    {{ if eq .Lang "en" }}EN
+        {{ else if eq .Lang "de" }}DE
+        {{ else if eq .Lang "pl" }}PL
+        {{ else if eq .Lang "es" }}ES
+        {{ else }}{{ .Lang | upper }}
+        {{ end }}
+                </a>
+              </li>
+            {{- end }}
+          {{- end }}
+        </ul>
+      </li>
+    </ul>
+  </nav>
+</header>

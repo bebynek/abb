@@ -1,0 +1,19 @@
+<footer>
+
+ <div class="footer-container">
+
+      <nav class="footer-menu">
+    <ul>
+      {{ range .Site.Menus.footer }}
+        <li><a href="{{ .URL }}">{{ .Name }}</a></li>
+      {{ end }}
+    </ul>
+  </nav>
+
+    <div class="footer-logo">
+
+        <span>© {{ now.Format "2006" }}
+            {{ .Site.Title }}</span>
+    </div>
+
+</footer>

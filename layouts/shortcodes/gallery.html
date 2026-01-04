@@ -1,0 +1,43 @@
+{{ $path := "images/01 Projekte/Moorbad" }}
+{{ $files := readDir (printf "static/%s" $path) }}
+
+{{ $captionsFile := "content/de/projekt/Moorbad_captions.yaml" }}
+{{ $captions := readFile $captionsFile | transform.Unmarshal }}
+
+<div class="gallery">
+  {{ range $files }}
+    {{ $name := .Name | lower }}
+
+    {{ if and (not .IsDir)
+             (or (strings.HasSuffix $name ".jpg")
+                 (strings.HasSuffix $name ".jpeg")
+                 (strings.HasSuffix $name ".png")
+                 (strings.HasSuffix $name ".webp")) }}
+
+      <a href="/{{ $path }}/{{ .Name }}" class="gallery-item">
+        <img src="/{{ $path }}/{{ .Name }}" 
+             alt="{{ index $captions $name }}" 
+             loading="lazy">
+      </a>
+
+    {{ end }}
+  {{ end }}
+</div>
+
+
+<style>
+.gallery {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); /* exactly 3 per row */
+  gap: 12px;
+}
+
+/* Make images perfectly square */
+.gallery img {
+  width: 100%;
+  aspect-ratio: 1 / 1;   /* <-- the magic: perfect square */
+  object-fit: cover;     /* crop while keeping center */
+  border-radius: 8px;
+  display: block;
+}
+</style>

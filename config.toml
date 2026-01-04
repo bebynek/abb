@@ -1,0 +1,146 @@
+baseURL = 'https://bebynek.com'
+defaultContentLanguage = 'de'
+defaultContentLanguageInSubdir = true
+title = 'bebynek architektur'
+description = 'this is a short description'
+theme = 'quint'
+pluralizeListTitles = false
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
+
+
+[languages]
+
+  [languages.de]
+    languageName = "Deutsch"
+    languageCode = "de-de"
+    weight = 1
+    contentDir = "content/de"
+
+    [languages.de.menu]
+      [[languages.de.menu.main]]
+        name = "Studio"
+        url = "/studio/"
+        weight = 2
+     
+      [[languages.de.menu.main]]
+        name = "Leistungen"
+        url = "/Leistungen/"
+        weight = 3
+      
+                 [[languages.de.menu.main]]
+        name = "Projekte"
+        url = "/projekte/"
+        weight = 4
+        
+        [[languages.de.menu.main]]
+        name = "Journal"
+        url = "/journal/"
+        weight = 5
+
+     [[languages.de.menu.main]]
+        name = "Kontakt"
+        url = "/kontakt/"
+        weight = 5
+
+
+      [[languages.de.menu.footer]]
+        name = "Impressum"
+        url = "/impressum/"
+        weight = 1
+      [[languages.de.menu.footer]]
+        name = "Datenschutz"
+        url = "/datenschutz/"
+        weight = 2
+
+  [languages.en]
+    languageName = "English"
+    languageCode = "en-us"
+    weight = 2
+    contentDir = "content/en"
+
+    [languages.en.menu]
+      [[languages.en.menu.main]]
+        name = "Buildings"
+        url = "/bauwerk/"
+        weight = 2
+      [[languages.en.menu.main]]
+        name = "Building Products"
+        url = "/bauprodukt/"
+        weight = 3
+      [[languages.en.menu.main]]
+        name = "About"
+        url = "/about/"
+        weight = 4
+
+      [[languages.en.menu.footer]]
+        name = "Imprint"
+        url = "/impressum/"
+        weight = 1
+      [[languages.en.menu.footer]]
+        name = "Privacy Policy"
+        url = "/datenschutz/"
+        weight = 2
+
+
+ [languages.pl]
+    languageName = "Polish"
+    languageCode = "pl"
+    weight = 3
+    contentDir = "content/pl"
+
+    [languages.pl.menu]
+      [[languages.pl.menu.main]]
+        name = "Buildings"
+        url = "/bauwerk/"
+        weight = 2
+      [[languages.pl.menu.main]]
+        name = "Building Products"
+        url = "/bauprodukt/"
+        weight = 3
+      [[languages.pl.menu.main]]
+        name = "About"
+        url = "/about/"
+        weight = 4
+
+      [[languages.pl.menu.footer]]
+        name = "Imprint"
+        url = "/impressum/"
+        weight = 1
+      [[languages.pl.menu.footer]]
+        name = "Privacy Policy"
+        url = "/datenschutz/"
+        weight = 2
+
+
+[languages.es]
+    languageName = "Spanish"
+    languageCode = "es"
+    weight = 4
+    contentDir = "content/es"
+
+    [languages.es.menu]
+      [[languages.es.menu.main]]
+        name = "Buildings"
+        url = "/bauwerk/"
+        weight = 2
+      [[languages.es.menu.main]]
+        name = "Building Products"
+        url = "/bauprodukt/"
+        weight = 3
+      [[languages.es.menu.main]]
+        name = "About"
+        url = "/about/"
+        weight = 4
+
+      [[languages.es.menu.footer]]
+        name = "Imprint"
+        url = "/impressum/"
+        weight = 1
+      [[languages.es.menu.footer]]
+        name = "Privacy Policy"
+        url = "/datenschutz/"
+        weight = 2

@@ -1,0 +1,77 @@
+{{ define "main" }}
+  <div class="content-width">
+    <section class="hero">
+      {{ $studioPages := where (where .Site.Pages "Section" "studio") "Lang" .Site.Language.Lang }}
+      {{ $studio := "" }}
+      {{ if gt (len $studioPages) 0 }}
+        {{ $studio = index $studioPages 0 }}
+      {{ end }}
+
+      <div class="hero-left">
+        {{ if ne $studio "" }}
+          <a href="{{ $studio.RelPermalink }}" class="studio-link">
+            <img src="/images/abb.jpg" alt="Aga Bebynek">
+          </a>
+        {{ else }}
+          <img src="/images/abb.jpg" alt="Aga Bebynek">
+        {{ end }}
+      </div>
+      <div class="hero-right">
+        {{ if ne $studio "" }}
+          <h2 class="p-name">{{ $studio.Title }}</h2>
+          {{ $rawStudio := $studio.Plain }}
+          {{ $noParenStudio := replaceRE "\\(\\s*(?i:(?:Foto|Photo|Image))\\s*[:\\-]?\\s*[^)]+\\)" "" $rawStudio }}
+          {{ $noLineStudio := replaceRE "(?m)(?i)^[ \\t]*(?:foto|photo|image)\\b.*$" "" $noParenStudio }}
+          {{ $noInlineStudio := replaceRE "(?i)\\b(?:foto|photo|image)[\\s:-]+[A-ZÄÖÜẞ\\p{L}][\\p{L}\\-\\.']*(?:\\s+[A-ZÄÖÜẞ\\p{L}][\\p{L}\\-\\.]*){0,2}\\b" "" $noLineStudio }}
+          <a href="{{ $studio.RelPermalink }}" class="studio-link">
+            <p>{{ (replaceRE "^\\s+|\\s+$" "" $noInlineStudio) | truncate 250 }}</p>
+            <p class="more-link">Mehr erfahren</p>
+          </a>
+        {{ else }}
+          <p class="subtitle">{{ .Params.description }}</p>
+          <p>{{ .Content }}</p>
+        {{ end }}
+      </div>
+    </section>
+
+    <main class="h-entry e-content container col">
+      <!-- Show two latest cards: one from Projekte and one from Journal -->
+      <div class="cards" id="home-latest">
+        {{ $projPages := where (where .Site.RegularPages "Section" "projekte") "Lang" .Site.Language.Lang }}
+        {{ $proj := first 1 (sort $projPages "Date" "desc") }}
+        {{ $journalPages := where (where .Site.RegularPages "Section" "journal") "Lang" .Site.Language.Lang }}
+        {{ $journal := first 1 (sort $journalPages "Date" "desc") }}
+        {{ $cards := slice }}
+        {{ if gt (len $proj) 0 }}{{ $cards = $cards | append (index $proj 0) }}{{ end }}
+        {{ if gt (len $journal) 0 }}{{ $cards = $cards | append (index $journal 0) }}{{ end }}
+
+        {{ $labels := dict "projekte" "Projekte" "journal" "Journal" }}
+        {{ range $cards }}
+          {{ $p := . }}
+          {{ $label := (or (index $labels $p.Section) (humanize $p.Section)) }}
+          <div class="card h-entry">
+            {{ with $p.Params.image }}
+              <a href="{{ $p.Permalink }}" class="u-url">
+                <img src="{{ . }}" alt="{{ $p.Title }}" class="u-photo">
+              </a>
+            {{ else }}
+              {{ partial "randImage" $p }}
+            {{ end }}
+
+            <a href="{{ printf "/%s/%s/" .Site.Language.Lang $p.Section }}" class="section-label">{{ $label }}</a>
+
+            <a href="{{ $p.Permalink }}" class="u-url">
+              <div class="text">
+                <h2 class="p-name">{{ $p.Title }}</h2>
+                <p class="small e-content">{{ $p.Summary | plainify | truncate 100 }}</p>
+              </div>
+            </a>
+          </div>
+        {{ end }}
+
+      </div>
+      <br>
+     
+    </main>
+  </div>
+{{ end }}
