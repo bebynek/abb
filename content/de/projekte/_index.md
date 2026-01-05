@@ -11,6 +11,6 @@ url = '/de/projekte/'
 
 Die dargestellten Arbeiten umfassen eigene Projekte sowie ausgewählte Projekte aus vorhergehender beruflicher Tätigkeit.
 
-Weitere Projekte befinden sich in Bearbeitung.
+**Diese Seite befindet sich derzeit in Bearbeitung.**
 
 <br>

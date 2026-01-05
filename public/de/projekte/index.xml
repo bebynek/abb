@@ -6,21 +6,14 @@
     <description>Recent content on bebynek architektur</description>
     <generator>Hugo</generator>
     <language>de-de</language>
-    <lastBuildDate>Mon, 24 Mar 2025 14:58:24 +0100</lastBuildDate>
+    <lastBuildDate>Wed, 24 Dec 2025 14:58:24 +0100</lastBuildDate>
     <atom:link href="http://localhost:1313/de/projekte/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Villa V</title>
-      <link>http://localhost:1313/de/projekte/villa-v/</link>
-      <pubDate>Mon, 24 Mar 2025 14:58:24 +0100</pubDate>
-      <guid>http://localhost:1313/de/projekte/villa-v/</guid>
-      <description>&lt;p&gt;&lt;span style=&#34;color:gray&#34;&gt;Achtung : fiktives Projekt, eventuelle Ähnlichkeiten mit realen Personen / Firmen sind zufällig und nicht beabsichtigt.&lt;/span&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;Mit großem Engagement sanierte eine Rentnerin aus Bayern eine Villa aus dem späten 20. Jahrhundert und bewahrte sie so vor dem Verfall. Darüber hinaus wurde das Gebäude energetisch modernisiert und bietet nach Abschluss der Maßnahmen ein komfortables und behagliches Zuhause.&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;p&gt;Die Villa stand über mehrere Jahrzehnte verlassen, bis sich Frau F, eine engagierte Rentnerin aus der Region, ihrer annahm. Mit Unterstützung eines Teams aus Fachplanern wurde die Sanierung sorgfältig geplant und gemeinsam mit erfahrenen Handwerkern durchgeführt.&lt;/p&gt;</description>
-    </item>
-    <item>
       <title>In Bearbeitung</title>
-      <link>http://localhost:1313/de/projekte/coming/</link>
-      <pubDate>Fri, 24 Jan 2025 14:58:24 +0100</pubDate>
-      <guid>http://localhost:1313/de/projekte/coming/</guid>
-      <description>&lt;p&gt;Weitere Projekte befinden sich in Bearbeitung.&lt;/p&gt;</description>
+      <link>http://localhost:1313/de/projekte/villa-v/</link>
+      <pubDate>Wed, 24 Dec 2025 14:58:24 +0100</pubDate>
+      <guid>http://localhost:1313/de/projekte/villa-v/</guid>
+      <description>&lt;p&gt;In Bearbeitung&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

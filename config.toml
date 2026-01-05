@@ -64,12 +64,12 @@ pluralizeListTitles = false
 
     [languages.en.menu]
       [[languages.en.menu.main]]
-        name = "Buildings"
-        url = "/bauwerk/"
+        name = "Studio"
+        url = "/studio/"
         weight = 2
       [[languages.en.menu.main]]
-        name = "Building Products"
-        url = "/bauprodukt/"
+        name = "Leistungen"
+        url = "/leistungen/"
         weight = 3
       [[languages.en.menu.main]]
         name = "About"

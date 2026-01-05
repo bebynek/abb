@@ -16,4 +16,4 @@ image = '/images/news/weihnachten/DSC02838.jpg'
 
 Wir wünschen euch eine wunderschöne Weihnachtszeit sowie einen großartigen Start ins neue Jahr. Möge es ein gutes und erfülltes Jahr werden!
 
-Eurer Team von Erlebe Erbe
+

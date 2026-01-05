@@ -15,8 +15,7 @@ Historische Gebäude werden mit Respekt für ihre Substanz, ihre Geschichte und 
 
 Die Projekte zeichnen sich durch sorgfältige Analyse, präzise Planung und eine reduzierte, zeitlose Formensprache aus. Ziel ist es, Bestehendes behutsam an heutige Anforderungen anzupassen und langfristig nutzbar zu machen.
 
-Die internationale Ausbildung der Büroinhaberin **Aga Bebynek-Bielanska** und ihre langjährige Berufserfahrung in Deutschland und Europa prägen die Arbeitsweise des Büros - sachlich, nachhaltig und kontextbezogen.
-
+Die internationale Ausbildung der Büroinhaberin [Aga Bebynek-Bielanska](https://linkedin.com/in/aga-bebynek-bielanska-413b52172) und ihre langjährige Berufserfahrung in Deutschland und Europa prägen die Arbeitsweise des Büros - sachlich, nachhaltig und kontextbezogen.
 <br>
 <br>
 <figure style="margin: 0; width: fit-content;">

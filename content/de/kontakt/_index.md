@@ -12,8 +12,17 @@ Kontaktieren Sie mich für Projekte, Kooperationen oder Beratung.
 
 Ich freue mich auf Ihre Anfrage.
 
+<br>
+
+**Aga Bebynek-Bielanska**
+
+Tel.: +1627723647
+
+E-Mail: aga@bebynek.com
+
+
 <!-- Contact form: replace the action URL with your Formspree endpoint (https://formspree.io/f/YOUR_FORM_ID) or follow the Netlify instructions below -->
-<form id="contact-form" method="POST" action="https://formspree.io/f/YOUR_FORM_ID">
+<!-- <form id="contact-form" method="POST" action="https://formspree.io/f/YOUR_FORM_ID">
   <label for="name">Name</label>
   <input id="name" name="name" type="text" required>
 
@@ -27,5 +36,5 @@ Ich freue mich auf Ihre Anfrage.
 
   <button type="submit">Senden</button>
 </form>
-
+-->
 </div>
