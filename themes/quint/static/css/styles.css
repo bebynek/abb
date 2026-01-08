@@ -219,7 +219,7 @@ header {
 }
 
 header .logo img {
-    height: 50px;
+    height: 25px;
 }
 
 /* Hero Section Styles */
@@ -344,7 +344,7 @@ ul.search-results li a {
 
 /* Contact Section */
 .contact {
-    text-align: center;
+    text-align: left;
     margin: 5rem auto;
 }
 

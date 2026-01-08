@@ -1,7 +1,7 @@
 baseURL = 'https://bebynek.com'
 defaultContentLanguage = 'de'
 defaultContentLanguageInSubdir = true
-title = 'bebynek architektur'
+title = 'bebynek'
 description = 'this is a short description'
 theme = 'quint'
 pluralizeListTitles = false
@@ -68,13 +68,21 @@ pluralizeListTitles = false
         url = "/studio/"
         weight = 2
       [[languages.en.menu.main]]
-        name = "Leistungen"
-        url = "/leistungen/"
+        name = "Services"
+        url = "/services/"
         weight = 3
       [[languages.en.menu.main]]
-        name = "About"
-        url = "/about/"
+        name = "Projects"
+        url = "/projects/"
         weight = 4
+      [[languages.en.menu.main]]
+        name = "Journal"
+        url = "/journal/"
+        weight = 5
+      [[languages.en.menu.main]]
+        name = "Contact"
+        url = "/contact/"
+        weight = 6
 
       [[languages.en.menu.footer]]
         name = "Imprint"
@@ -94,17 +102,25 @@ pluralizeListTitles = false
 
     [languages.pl.menu]
       [[languages.pl.menu.main]]
-        name = "Buildings"
-        url = "/bauwerk/"
+        name = "Studio"
+        url = "/studio/"
         weight = 2
       [[languages.pl.menu.main]]
-        name = "Building Products"
-        url = "/bauprodukt/"
+        name = "Usługi"
+        url = "/uslugi/"
         weight = 3
       [[languages.pl.menu.main]]
-        name = "About"
-        url = "/about/"
+        name = "Projekty"
+        url = "/projekty/"
         weight = 4
+     [[languages.pl.menu.main]]
+        name = "Journal"
+        url = "/journal/"
+        weight = 5
+      [[languages.pl.menu.main]]
+        name = "Kontakt"
+        url = "/kontakt/"
+        weight = 6
 
       [[languages.pl.menu.footer]]
         name = "Imprint"
@@ -124,17 +140,25 @@ pluralizeListTitles = false
 
     [languages.es.menu]
       [[languages.es.menu.main]]
-        name = "Buildings"
-        url = "/bauwerk/"
+        name = "Estudio"
+        url = "/estudio/"
         weight = 2
       [[languages.es.menu.main]]
-        name = "Building Products"
-        url = "/bauprodukt/"
+        name = "Servicios"
+        url = "/servicios/"
         weight = 3
       [[languages.es.menu.main]]
-        name = "About"
-        url = "/about/"
+        name = "Proyectos"
+        url = "/proyectos/"
         weight = 4
+      [[languages.es.menu.main]]
+        name = "Journal"
+        url = "/journal/"
+        weight = 5
+      [[languages.es.menu.main]]
+        name = "Contacto"
+        url = "/contacto/"
+        weight = 6
 
       [[languages.es.menu.footer]]
         name = "Imprint"

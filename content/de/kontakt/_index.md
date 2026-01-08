@@ -5,7 +5,7 @@ url = '/de/kontakt/'
 
 <div class="narrow">
 
-
+<div class="contact-content">
 <p style="font-size: 30px; font-weight: bold;">Kontakt</p>
 
 Kontaktieren Sie mich für Projekte, Kooperationen oder Beratung.
@@ -37,4 +37,5 @@ E-Mail: aga@bebynek.com
   <button type="submit">Senden</button>
 </form>
 -->
+</div>
 </div>
