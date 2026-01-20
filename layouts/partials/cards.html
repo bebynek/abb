@@ -12,6 +12,8 @@
         {{ else }}
           {{ partial "randImage" $page }}
         {{ end }}
+      </a>
+      <a href="{{ $page.Permalink }}" class="u-url">
         <div class="text">
           <h2 class="p-name">{{ $page.Title }}</h2>
 {{ $raw := $page.Summary | plainify }}
@@ -19,8 +21,8 @@
 {{ $noLine := replaceRE "(?m)(?i)^[ \\t]*(?:foto|photo|image)\\b.*$" "" $noParen }}
 {{ $noInline := replaceRE "(?i)\\b(?:foto|photo|image)[\\s:-]+[A-ZÄÖÜẞ\\p{L}][\\p{L}\\-\\.']*(?:\\s+[A-ZÄÖÜẞ\\p{L}][\\p{L}\\-\\.]*){0,2}\\b" "" $noLine }}
 {{ $clean := replaceRE "^\\s+|\\s+$" "" $noInline }}
-<p class="small e-content">{{ $clean | truncate 100 }}</p>
-
+<p class="small e-content">{{ $clean | truncate 200 }}</p>
+          <p class="more-link">Mehr erfahren</p>
         </div>
       </a>
     </div>

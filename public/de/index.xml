@@ -10,10 +10,10 @@
     <atom:link href="http://localhost:1313/de/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Umbau einer ehemaligen Druckerei</title>
-      <link>http://localhost:1313/de/projekte/druckerei/</link>
+      <link>http://localhost:1313/de/projekte/druckerei/druckerei/</link>
       <pubDate>Wed, 24 Dec 2025 14:58:24 +0100</pubDate>
-      <guid>http://localhost:1313/de/projekte/druckerei/</guid>
-      <description>&lt;p&gt;Der Umbau einer ehemaligen Druckerei zu einem Firmensitz verbindet bestehende industrielle Strukturen mit neuen funktionalen Anforderungen. Büro- und Lagerflächen wurden klar organisiert und behutsam in den Bestand integriert.&lt;/p&gt;</description>
+      <guid>http://localhost:1313/de/projekte/druckerei/druckerei/</guid>
+      <description>&lt;div class=&#34;narrow&#34;&gt;&#xA;&lt;p style=&#34;font-size: 30px; font-weight: bold;&#34;&gt;Umbau einer ehemaligen Druckerei&lt;/p&gt;&#xA;&lt;p&gt;Der Umbau einer ehemaligen Druckerei zu einem Firmensitz verbindet bestehende industrielle Strukturen mit neuen funktionalen Anforderungen. Büro- und Lagerflächen wurden klar organisiert und behutsam in den Bestand integriert.&lt;/p&gt;&#xA;&lt;br&gt;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&lt;div class=&#34;gallery&#34;&gt;&#xA;  &#xA;    &#xA;&#xA;    &#xA;  &#xA;    &#xA;&#xA;    &#xA;&#xA;      &lt;a href=&#34;http://localhost:1313/images/projekte/druckerei/dru1.JPG&#34; class=&#34;gallery-item&#34;&gt;&#xA;        &lt;img src=&#34;http://localhost:1313/images/projekte/druckerei/dru1.JPG&#34; &#xA;             alt=&#34;&#34; &#xA;             loading=&#34;lazy&#34;&gt;&#xA;      &lt;/a&gt;&#xA;&#xA;    &#xA;  &#xA;    &#xA;&#xA;    &#xA;&#xA;      &lt;a href=&#34;http://localhost:1313/images/projekte/druckerei/dru2.JPG&#34; class=&#34;gallery-item&#34;&gt;&#xA;        &lt;img src=&#34;http://localhost:1313/images/projekte/druckerei/dru2.JPG&#34; &#xA;             alt=&#34;&#34; &#xA;             loading=&#34;lazy&#34;&gt;&#xA;      &lt;/a&gt;&#xA;&#xA;    &#xA;  &#xA;    &#xA;&#xA;    &#xA;&#xA;      &lt;a href=&#34;http://localhost:1313/images/projekte/druckerei/dru3.JPG&#34; class=&#34;gallery-item&#34;&gt;&#xA;        &lt;img src=&#34;http://localhost:1313/images/projekte/druckerei/dru3.JPG&#34; &#xA;             alt=&#34;&#34; &#xA;             loading=&#34;lazy&#34;&gt;&#xA;      &lt;/a&gt;&#xA;&#xA;    &#xA;  &#xA;    &#xA;&#xA;    &#xA;&#xA;      &lt;a href=&#34;http://localhost:1313/images/projekte/druckerei/dru4.JPG&#34; class=&#34;gallery-item&#34;&gt;&#xA;        &lt;img src=&#34;http://localhost:1313/images/projekte/druckerei/dru4.JPG&#34; &#xA;             alt=&#34;&#34; &#xA;             loading=&#34;lazy&#34;&gt;&#xA;      &lt;/a&gt;&#xA;&#xA;    &#xA;  &#xA;    &#xA;&#xA;    &#xA;&#xA;      &lt;a href=&#34;http://localhost:1313/images/projekte/druckerei/dru5.JPG&#34; class=&#34;gallery-item&#34;&gt;&#xA;        &lt;img src=&#34;http://localhost:1313/images/projekte/druckerei/dru5.JPG&#34; &#xA;             alt=&#34;&#34; &#xA;             loading=&#34;lazy&#34;&gt;&#xA;      &lt;/a&gt;&#xA;&#xA;    &#xA;  &#xA;&lt;/div&gt;&#xA;&#xA;&#xA;&#xA;&#xA;&lt;style&gt;&#xA;.gallery {&#xA;  display: grid;&#xA;  grid-template-columns: repeat(3, 1fr);  &#xA;  gap: 12px;&#xA;}&#xA;&#xA; &#xA;.gallery img {&#xA;  width: 100%;&#xA;  aspect-ratio: 1 / 1;    &#xA;  object-fit: cover;      &#xA;  border-radius: 8px;&#xA;  display: block;&#xA;}&#xA;&lt;/style&gt;&#xA;&#xA;&lt;br&gt;&#xA;&lt;p&gt;Kategorie: Bestand&lt;/p&gt;&#xA;&lt;p&gt;Nutzung: Firmensitz (Büros &amp;amp; Lager)&lt;/p&gt;&#xA;&lt;p&gt;Jahr: 2025&lt;/p&gt;&#xA;&lt;/div&gt;</description>
     </item>
     <item>
       <title>Frohe Weihnachten und alles Gute für das neue Jahr!</title>
@@ -21,13 +21,6 @@
       <pubDate>Mon, 22 Dec 2025 12:57:49 +0100</pubDate>
       <guid>http://localhost:1313/de/journal/weihnachten/</guid>
       <description>&lt;figure style=&#34;margin: 0; width: fit-content;&#34;&gt;&#xA;  &lt;img src=&#34;http://localhost:1313/images/news/weihnachten/DSC02838.jpg&#34; alt=&#34;Frohe Weihnachten&#34; style=&#34;width: 100%; height: auto; display: block;border-radius: 8px;&#34;&gt;&#xA;  &lt;figcaption style=&#34;font-size: 12px; text-align: right; margin-top: 0.3em; width: 100%;&#34;&gt;&#xA;   &lt;!-- Add photo-description  --&gt;&#xA;   Foto: André Albers&#xA;  &lt;/figcaption&gt;&#xA;&lt;/figure&gt;&#xA;&lt;p&gt;Wir wünschen euch eine wunderschöne Weihnachtszeit sowie einen großartigen Start ins neue Jahr. Möge es ein gutes und erfülltes Jahr werden!&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>In Bearbeitung</title>
-      <link>http://localhost:1313/de/journal/eit-cc/</link>
-      <pubDate>Thu, 25 Sep 2025 15:57:49 +0100</pubDate>
-      <guid>http://localhost:1313/de/journal/eit-cc/</guid>
-      <description>&lt;p&gt;In Bearbeitung&lt;/p&gt;</description>
     </item>
     <item>
       <title></title>

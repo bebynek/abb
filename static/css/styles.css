@@ -293,6 +293,17 @@ header .logo img {
 .hero .studio-link:hover .more-link {
     color: var(--primary-text);
 }
+
+.card .more-link {
+    color: var(--link-color);
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 0.9rem;
+}
+
+.card .more-link:hover {
+    color: var(--primary-text);
+}
 .hero h1 {
     font-size: 2rem;
     color: var(--primary-text);
@@ -447,7 +458,7 @@ ul.search-results li a {
 /* Blog Cards Styles */
 .cards {
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    grid-template-columns: 1fr;
     gap: 3rem;
     padding: 20px;
 }
@@ -458,7 +469,7 @@ ul.search-results li a {
 
 .card img {
     width: 100%;
-    height: 200px;
+    height: 500px;
     object-fit: cover;
     border-radius: 10px;
     box-shadow: 0 16px 48px var(--shadow-color);
@@ -482,7 +493,10 @@ ul.search-results li a {
     margin-bottom: 0
 }
 
-/* Contact Section */
+/* Hide date for projekte section only */
+.section-projekte .post-data {
+    display: none;
+}
 .contact {
     text-align: left;   /* align text to the left */
     margin: 5rem 0;     /* vertical spacing only, remove horizontal auto */

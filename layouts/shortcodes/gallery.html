@@ -1,7 +1,7 @@
-{{ $path := "images/01 Projekte/Moorbad" }}
+{{ $path := "images/projekte/druckerei" }}
 {{ $files := readDir (printf "static/%s" $path) }}
 
-{{ $captionsFile := "content/de/projekt/Moorbad_captions.yaml" }}
+{{ $captionsFile := "content/de/projekt/druckerei_captions.yaml" }}
 {{ $captions := readFile $captionsFile | transform.Unmarshal }}
 
 <div class="gallery">
@@ -23,6 +23,8 @@
     {{ end }}
   {{ end }}
 </div>
+
+
 
 
 <style>

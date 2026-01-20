@@ -2,7 +2,7 @@
     {{ $min := 1 }}{{ $max := .Site.Params.numImages }}{{ $randomNumber := (add (mul (math.Rand) (add (sub $max $min) 1)) $min) | int }}
 
 
-    <main class="post h-entry container row">
+    <main class="post h-entry container row section-{{ .Section }}">
         <div class="post">
             <div class="post-data row">
                 <time class="dt-published" datetime="{{ .Date }}">
