@@ -9,11 +9,11 @@
     <lastBuildDate>Wed, 24 Dec 2025 14:58:24 +0100</lastBuildDate>
     <atom:link href="http://localhost:1313/de/projekte/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>In Bearbeitung</title>
-      <link>http://localhost:1313/de/projekte/villa-v/</link>
+      <title>Umbau einer ehemaligen Druckerei</title>
+      <link>http://localhost:1313/de/projekte/druckerei/</link>
       <pubDate>Wed, 24 Dec 2025 14:58:24 +0100</pubDate>
-      <guid>http://localhost:1313/de/projekte/villa-v/</guid>
-      <description>&lt;p&gt;In Bearbeitung&lt;/p&gt;</description>
+      <guid>http://localhost:1313/de/projekte/druckerei/</guid>
+      <description>&lt;p&gt;Der Umbau einer ehemaligen Druckerei zu einem Firmensitz verbindet bestehende industrielle Strukturen mit neuen funktionalen Anforderungen. Büro- und Lagerflächen wurden klar organisiert und behutsam in den Bestand integriert.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

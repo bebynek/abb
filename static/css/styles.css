@@ -160,7 +160,7 @@ nav ul {
 }
 
 nav ul li {
-    display: inline;
+    display: block;
     list-style: none;
     margin: 0.2rem 0;
 }
@@ -210,6 +210,35 @@ nav#TableOfContents ul {
 .pages a.active {
     font-weight: 1000;
 }
+/* Added */
+
+nav ul li.has-dropdown {
+  position: relative;
+}
+
+nav ul li.has-dropdown > ul.submenu {
+  display: none;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  background: var(--primary-bg);
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  min-width: 160px;
+  box-shadow: 0 8px 16px var(--shadow-color);
+  z-index: 1000;
+}
+
+nav ul li.has-dropdown:hover > ul.submenu {
+  display: block;
+}
+
+nav ul li.has-dropdown ul.submenu li a {
+  padding: 0.5rem 1rem;
+  display: block;
+}
+
 
 /* Header Styles */
 header {
@@ -1007,8 +1036,12 @@ nav ul li.lang-dropdown ul.lang-submenu li a:hover {
     }
 
     header nav ul li a {
-        font-size: 0.95rem; /* slightly smaller*
+        font-size: 0.95rem; /* slightly smaller*/
+
+    
+        /* Menu Section Energieberatung Grün*/
 
 
-
-
+header nav.menu ul li#energie > a {
+    color: #2F3E3A;
+}

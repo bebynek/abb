@@ -20,31 +20,47 @@ pluralizeListTitles = false
     weight = 1
     contentDir = "content/de"
 
-    [languages.de.menu]
+
+     
+      [[languages.de.menu.main]]
+        name = "Architektur"
+        url = "/architektur/"
+        weight = 3
+
+            [languages.de.menu]
       [[languages.de.menu.main]]
         name = "Studio"
         url = "/studio/"
-        weight = 2
-     
+        parent = "Architektur"
+        weight = 1
+
       [[languages.de.menu.main]]
-        name = "Leistungen"
-        url = "/Leistungen/"
-        weight = 3
+        name = "Projekte"
+        url = "/projekte/"
+        parent = "Architektur"
+        weight = 2
+
+      [[languages.de.menu.main]]
+        name = "Energieberatung"
+        url = "/energieberatung/"
+        identifier = "energie"
+        weight = 4
       
                  [[languages.de.menu.main]]
         name = "Projekte"
         url = "/projekte/"
-        weight = 4
+        parent = "Architektur"
+        weight = 2
         
         [[languages.de.menu.main]]
         name = "Journal"
         url = "/journal/"
-        weight = 5
+        weight = 6
 
      [[languages.de.menu.main]]
         name = "Kontakt"
         url = "/kontakt/"
-        weight = 5
+        weight = 7
 
 
       [[languages.de.menu.footer]]

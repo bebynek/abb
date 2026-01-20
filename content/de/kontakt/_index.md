@@ -1,6 +1,7 @@
 +++
 layout = 'about'
 url = '/de/kontakt/'
+title = 'Kontakt'
 +++
 
 <div class="narrow">

@@ -6,11 +6,22 @@
   </div>
   <nav class="menu">
     <ul>
-      {{- range .Site.Menus.main }}
-        <li>
-          <a href="{{ .URL |relLangURL}}">{{ .Name }}</a>
-        </li>
-      {{- end }}
+{{- range .Site.Menus.main }}
+  <li class="{{ if .HasChildren }}has-dropdown{{ end }}">
+    <a href="{{ .URL | relLangURL }}">{{ .Name }}</a>
+
+    {{- if .HasChildren }}
+      <ul class="submenu">
+        {{- range .Children }}
+          <li {{ with .Identifier }}id="{{ . }}"{{ end }}>
+            <a href="{{ .URL | relLangURL }}">{{ .Name }}</a>
+          </li>
+        {{- end }}
+      </ul>
+    {{- end }}
+  </li>
+{{- end }}
+
 
       <!-- 🌐 Language Dropdown -->
       <li class="lang-dropdown">
