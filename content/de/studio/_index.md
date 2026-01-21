@@ -24,4 +24,45 @@ Die internationale Ausbildung der Büroinhaberin [Aga Bebynek-Bielanska](https:/
   </figcaption>
 </figure>
 
+## Profil
+
+
+**Aga Bebynek-Bielanska**
+
+Architektin
+
+Internationale Ausbildung und langjährige Berufserfahrung in Deutschland und Europa.
+
+Schwerpunkt: **Denkmalpflege**, **Bauen im Bestand**, **energetische Sanierung**
+
+<details class="cv-toggle" style="margin-top: 1rem;">
+  <summary style="color: #879094; cursor: pointer; list-style: none; margin-left: 0;">Mehr erfahren</summary>
+
+<br>
+
+**Berufserfahrung**
+- seit 2024: Bebynek Architektur, Mindelheim
+- 2019–2024: Kern Architekten, Mindelheim
+- 2017-2018: Vision4Venue, Nürnberg
+- 2015: Planet Architects, Wien
+
+
+**Ausbildung**
+- Master of Architecture, Universidad de Granada
+- Bachelor of Architecture, Universidad de Granada
+
+Austauschprogramme: 
+- Technische Universität Wien
+- Loyola University Chicago
+
+
+**Weiterbildung (Auswahl)**
+- Gebäudeenergieberater, Handwerkskammer für München und Oberbayern
+- Energieeinsparung und Denkmalschutz, Bayerische Architektenkammer
+- Historische Türen - Entwicklungsgeschichte, Bayerisches Landesamt für Denkmalpflege
+- Praxisseminar Kalkputze in Illerbeuren im Allgäu, Bayerisches Landesamt für Denkmalpflege
+- Historische Fenster - Fensterbaugeschichte und Fensterrestaurierung, Bayerisches Landesamt für Denkmalpflege
+- Sustainable Building Design, MITx, Massachusetts Institute of Technology
+
+</details>
 

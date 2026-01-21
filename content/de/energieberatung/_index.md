@@ -22,15 +22,15 @@ Eine energetische Sanierung ermöglicht es, bestehende Gebäude effizienter zu n
 
 Für Bestandsgebäude biete ich an:
 
--Bestandsanalyse: Aufnahme des IST-Zustandes und Bewertung vorhandener Schwachstellen
+- Bestandsanalyse: Aufnahme des IST-Zustandes und Bewertung vorhandener Schwachstellen
 
--Beratung zu Verbesserungsmöglichkeiten: individuelle Empfehlungen für Effizienzsteigerung und Komfort
+- Beratung zu Verbesserungsmöglichkeiten: individuelle Empfehlungen für Effizienzsteigerung und Komfort
 
--Individueller Sanierungsfahrplan (iSFP): strukturierte Maßnahmenplanung inklusive Fördermittelhinweisen
+- Individueller Sanierungsfahrplan (iSFP): strukturierte Maßnahmenplanung inklusive Fördermittelhinweisen
 
--Baubegleitung: Unterstützung während der Umsetzung, Kontrolle der Maßnahmen
+- Baubegleitung: Unterstützung während der Umsetzung, Kontrolle der Maßnahmen
 
--Fördermittelunterstützung: Hilfestellung bei Anträgen für BAFA und KfW
+- Fördermittelunterstützung: Hilfestellung bei Anträgen für BAFA und KfW
 
 <br>
 
@@ -38,11 +38,11 @@ Für Bestandsgebäude biete ich an:
 
 Sie profitieren von:
 
--Kostenersparnis: effizientere Energienutzung senkt Ihre laufenden Ausgaben
+- Kostenersparnis: effizientere Energienutzung senkt Ihre laufenden Ausgaben
 
--Mehr Komfort: angenehmes Raumklima, moderne Technik
+- Mehr Komfort: angenehmes Raumklima, moderne Technik
 
--Nachhaltigkeit: Sie leisten einen aktiven Beitrag zum Klimaschutz
+- Nachhaltigkeit: Sie leisten einen aktiven Beitrag zum Klimaschutz
 
 <br>
 

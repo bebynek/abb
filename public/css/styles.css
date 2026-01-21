@@ -304,6 +304,20 @@ header .logo img {
 .card .more-link:hover {
     color: var(--primary-text);
 }
+
+/* Hide marker for cv-toggle details */
+details.cv-toggle summary {
+    list-style: none;
+}
+
+details.cv-toggle summary::-webkit-details-marker {
+    display: none;
+}
+
+details.cv-toggle summary::marker {
+    display: none;
+}
+
 .hero h1 {
     font-size: 2rem;
     color: var(--primary-text);
