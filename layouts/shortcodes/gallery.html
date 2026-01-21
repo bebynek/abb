@@ -1,7 +1,7 @@
 {{ $path := "images/projekte/druckerei" }}
 {{ $files := readDir (printf "static/%s" $path) }}
 
-{{ $captionsFile := "content/de/projekt/druckerei_captions.yaml" }}
+{{ $captionsFile := "content/de/projekte/druckerei/druckerei_captions.yaml" }}
 {{ $captions := readFile $captionsFile | transform.Unmarshal }}
 
 <div class="gallery">
