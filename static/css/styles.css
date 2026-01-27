@@ -239,6 +239,10 @@ nav ul li.has-dropdown ul.submenu li a {
   display: block;
 }
 
+a.submenu-colored-item {
+    color: green
+}
+
 
 /* Header Styles */
 header {
