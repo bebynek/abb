@@ -28,12 +28,10 @@ Die internationale Ausbildung der Büroinhaberin [Aga Bebynek-Bielanska](https:/
 
 
 **Aga Bebynek-Bielanska**
-
-Architektin
+<br>Architektin
 
 Internationale Ausbildung und langjährige Berufserfahrung in Deutschland und Europa.
-
-Schwerpunkt: **Denkmalpflege**, **Bauen im Bestand**, **energetische Sanierung**
+<br>Schwerpunkt: **Denkmalpflege**, **Bauen im Bestand**, **energetische Sanierung**
 
 <details class="cv-toggle" style="margin-top: 1rem;">
   <summary style="color: #879094; cursor: pointer; list-style: none; margin-left: 0;">Mehr erfahren</summary>
