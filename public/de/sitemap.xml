@@ -37,6 +37,8 @@
                 href="http://localhost:1313/de/"
                 />
   </url><url>
+    <loc>http://localhost:1313/de/architektur/</loc>
+  </url><url>
     <loc>http://localhost:1313/de/energieberatung/</loc>
   </url><url>
     <loc>http://localhost:1313/datenschutz/</loc>
