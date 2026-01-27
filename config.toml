@@ -35,10 +35,16 @@ pluralizeListTitles = false
         weight = 1
 
       [[languages.de.menu.main]]
+        name = "Leistungen"
+        url = "/leistungen/"
+        parent = "Architektur"
+        weight = 2
+
+      [[languages.de.menu.main]]
         name = "Projekte"
         url = "/projekte/"
         parent = "Architektur"
-        weight = 2
+        weight = 3
 
       [[languages.de.menu.main]]
         name = "Energieberatung"

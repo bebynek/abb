@@ -13,7 +13,7 @@ url = '/de/studio/'
 
 Die Projekte zeichnen sich durch sorgfältige Analyse, präzise Planung und eine reduzierte, zeitlose Formensprache aus. Ziel ist es, Bestehendes behutsam an heutige Anforderungen anzupassen und langfristig nutzbar zu machen.
 
-Die internationale Ausbildung der Büroinhaberin [Aga Bebynek-Bielanska](https://linkedin.com/in/aga-bebynek-bielanska-413b52172) und ihre langjährige Berufserfahrung in Deutschland und Europa prägen die Arbeitsweise des Büros - präzise, zukunftsfähig und kontextbezogen.
+Die internationale Ausbildung der Büroinhaberin Aga Bebynek-Bielanska [(LinkedIn Profil)](https://linkedin.com/in/aga-bebynek-bielanska-413b52172) und ihre langjährige Berufserfahrung in Deutschland und Europa prägen die Arbeitsweise des Büros - präzise, zukunftsfähig und kontextbezogen.
 <br>
 <br>
 <figure style="margin: 0; width: fit-content;">
