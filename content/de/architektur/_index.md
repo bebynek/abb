@@ -3,7 +3,7 @@ layout = 'about'
 url = '/de/architektur/'
 +++
 
-<div class="narrow">
+
 
 <p style="font-size: 30px; font-weight: bold;">Architektur</p>
 
@@ -19,4 +19,3 @@ url = '/de/architektur/'
   </a>
 </div>
 
-</div>

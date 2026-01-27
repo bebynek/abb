@@ -5,7 +5,7 @@ title = 'Umbau einer ehemaligen Druckerei'
 image = '/images/projekte/druckerei/dru5.jpg'
 +++
 
-<div class="narrow">
+
 
 
 <p style="font-size: 30px; font-weight: bold;">Umbau einer ehemaligen Druckerei</p>
@@ -41,4 +41,3 @@ Jahr: 2025
 
 {{< gallery >}}
 
-</div> 

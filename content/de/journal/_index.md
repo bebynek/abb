@@ -3,7 +3,7 @@ layout = 'about'
 url = '/de/journal/'
 +++
 
-<div class="narrow">
+
 
 
 <p style="font-size: 30px; font-weight: bold;">Journal</p>

@@ -3,7 +3,7 @@ layout = 'about'
 url = '/de/energieberatung/'
 +++
 
-<div class="narrow">
+
 
 
 <p style="font-size: 30px; font-weight: bold;">Energieberatung</p>
@@ -53,4 +53,3 @@ Vereinbaren Sie ein unverbindliches Erstgespräch, um Ihre Möglichkeiten zu bes
 [Jetzt Energieberatung anfragen]({{< relref "kontakt" >}})
 
 
-</div>
