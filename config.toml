@@ -51,14 +51,16 @@ pluralizeListTitles = false
         url = "/energieberatung/"
         identifier = "energie"
         weight = 4
+        [languages.de.menu.main.params]
+        colored = true
       
-                 [[languages.de.menu.main]]
+      [[languages.de.menu.main]]
         name = "Projekte"
         url = "/projekte/"
         parent = "Architektur"
         weight = 2
         
-        [[languages.de.menu.main]]
+      [[languages.de.menu.main]]
         name = "Journal"
         url = "/journal/"
         weight = 6
