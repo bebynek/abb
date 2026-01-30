@@ -1057,7 +1057,7 @@ nav ul li.lang-dropdown ul.lang-submenu li a:hover {
     header {
         flex-direction: column; /* stack logo and menu */
         align-items: center;    /* center both */
-        padding: 10px 0;
+        padding: 10px 10px;
     }
 
     header .logo img {
@@ -1078,19 +1078,19 @@ nav ul li.lang-dropdown ul.lang-submenu li a:hover {
 
     /* Mobile padding for main content */
     .content-width {
-        padding: 20px;
+        padding: 10px;
     }
 
     .cards {
-        padding: 20px;
+        padding: 10px;
     }
 
     .form-container {
-        padding: 20px;
+        padding: 10px;
     }
 
     form {
-        padding: 20px;
+        padding: 10px;
     }
 
     
