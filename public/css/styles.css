@@ -99,7 +99,7 @@ form {
     padding: 20px;
     border-radius: 8px;
     width: 100%;
-    max-width: 400px;
+    max-width: 100%;
 }
 
 label {
@@ -131,16 +131,18 @@ button {
     width: 100%;
     padding: 10px;
     margin: 15px auto;
-    background-color: none;
-    color: none;
+    background-color: var(--link-color);
+    color: var(--primary-bg);
     border: none;
     border-radius: 4px;
     cursor: pointer;
     transition: background-color 0.3s;
+    font-family: 'OpenSauceOne', sans-serif;
+    font-size: 1rem;
 }
 
 button:hover {
-    background-color: none
+    background-color: var(--primary-text);
 }
 
 ::placeholder {
@@ -210,7 +212,7 @@ nav#TableOfContents ul {
 .pages a.active {
     font-weight: 1000;
 }
-/* Added */
+/* Added Submenu André */
 
 nav ul li.has-dropdown {
   position: relative;
@@ -240,7 +242,7 @@ nav ul li.has-dropdown ul.submenu li a {
 }
 
 a.submenu-colored-item {
-    color: #36794d
+    color: black
 }
 
 
@@ -254,6 +256,11 @@ header {
 header .logo img {
     height: 30px;
     margin-top: 5px; /* push logo slightly down */
+}
+
+/* Hide hamburger button on desktop */
+.menu-toggle {
+    display: none;
 }
 
 /* Hero Section Styles */
@@ -490,7 +497,7 @@ ul.search-results li a {
     width: 100%;
     height: 500px;
     object-fit: cover;
-    border-radius: 20px;
+    border-radius: 8px;
     box-shadow: 0 16px 48px var(--shadow-color);
 }
 
@@ -1053,9 +1060,10 @@ nav ul li.lang-dropdown ul.lang-submenu li a:hover {
 /* Mobile Header */
 @media (max-width: 768px) {
     header {
-        flex-direction: column; /* stack logo and menu */
-        align-items: center;    /* center both */
-        padding: 10px 0;
+        flex-direction: row; /* logo and button on same line */
+        align-items: center;
+        justify-content: space-between; /* space between logo and button */
+        padding: 10px 20px;
     }
 
     header .logo img {
@@ -1063,15 +1071,81 @@ nav ul li.lang-dropdown ul.lang-submenu li a:hover {
         height: 40px; /* slightly smaller on mobile */
     }
 
+    /* Hamburger menu button */
+    .menu-toggle {
+        display: flex;
+        flex-direction: column;
+        background: none;
+        border: none;
+        cursor: pointer;
+        padding: 5px;
+        gap: 5px;
+        margin: 0;
+    }
+
+    .menu-toggle span {
+        width: 25px;
+        height: 3px;
+        background-color: var(--primary-text);
+        border-radius: 2px;
+        transition: all 0.3s ease;
+    }
+
+    .menu-toggle.active span:nth-child(1) {
+        transform: rotate(45deg) translate(10px, 10px);
+    }
+
+    .menu-toggle.active span:nth-child(2) {
+        opacity: 0;
+    }
+
+    .menu-toggle.active span:nth-child(3) {
+        transform: rotate(-45deg) translate(7px, -7px);
+    }
+
+    /* Hide menu by default on mobile */
+    .menu {
+        display: none;
+        position: absolute;
+        top: 60px;
+        left: 0;
+        right: 0;
+        background: var(--primary-bg);
+        border-top: 1px solid var(--shadow-color);
+        padding: 20px 0;
+        z-index: 999;
+    }
+
+    .menu.active {
+        display: block;
+    }
+
     header nav ul {
         flex-direction: column; /* menu stacked vertically */
         gap: 10px;
-        margin-top: 10px; /* space below logo */
         align-items: center;
     }
 
     header nav ul li a {
         font-size: 0.95rem; /* slightly smaller*/
+    }
+
+    /* Mobile padding for main content */
+    .content-width {
+        padding: 20px;
+    }
+
+    .cards {
+        padding: 20px;
+    }
+
+    .form-container {
+        padding: 20px;
+    }
+
+    form {
+        padding: 20px;
+    }
 
     
         /* Menu Section Energieberatung Grün*/
