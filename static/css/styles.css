@@ -258,11 +258,6 @@ header .logo img {
     margin-top: 5px; /* push logo slightly down */
 }
 
-/* Hide hamburger button on desktop */
-.menu-toggle {
-    display: none;
-}
-
 /* Hero Section Styles */
 .hero {
     background-size: cover;
@@ -1060,10 +1055,9 @@ nav ul li.lang-dropdown ul.lang-submenu li a:hover {
 /* Mobile Header */
 @media (max-width: 768px) {
     header {
-        flex-direction: row; /* logo and button on same line */
-        align-items: center;
-        justify-content: space-between; /* space between logo and button */
-        padding: 10px 20px;
+        flex-direction: column; /* stack logo and menu */
+        align-items: center;    /* center both */
+        padding: 10px 0;
     }
 
     header .logo img {
@@ -1071,58 +1065,10 @@ nav ul li.lang-dropdown ul.lang-submenu li a:hover {
         height: 40px; /* slightly smaller on mobile */
     }
 
-    /* Hamburger menu button */
-    .menu-toggle {
-        display: flex;
-        flex-direction: column;
-        background: none;
-        border: none;
-        cursor: pointer;
-        padding: 5px;
-        gap: 5px;
-        margin: 0;
-    }
-
-    .menu-toggle span {
-        width: 25px;
-        height: 3px;
-        background-color: var(--primary-text);
-        border-radius: 2px;
-        transition: all 0.3s ease;
-    }
-
-    .menu-toggle.active span:nth-child(1) {
-        transform: rotate(45deg) translate(10px, 10px);
-    }
-
-    .menu-toggle.active span:nth-child(2) {
-        opacity: 0;
-    }
-
-    .menu-toggle.active span:nth-child(3) {
-        transform: rotate(-45deg) translate(7px, -7px);
-    }
-
-    /* Hide menu by default on mobile */
-    .menu {
-        display: none;
-        position: absolute;
-        top: 60px;
-        left: 0;
-        right: 0;
-        background: var(--primary-bg);
-        border-top: 1px solid var(--shadow-color);
-        padding: 20px 0;
-        z-index: 999;
-    }
-
-    .menu.active {
-        display: block;
-    }
-
     header nav ul {
         flex-direction: column; /* menu stacked vertically */
         gap: 10px;
+        margin-top: 10px; /* space below logo */
         align-items: center;
     }
 
