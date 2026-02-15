@@ -398,6 +398,7 @@ details.cv-toggle summary::marker {
     margin: 0 auto;
     width: 100%;
     padding: 0 1rem;
+    box-sizing: border-box;
 }
 
 /* Home latest cards label styling to match top menu */
@@ -481,6 +482,7 @@ ul.search-results li a {
     grid-template-columns: 1fr;
     gap: 3rem;
     padding: 20px;
+    box-sizing: border-box;
 }
 
 .card {
@@ -1060,6 +1062,13 @@ nav ul li.lang-dropdown ul.lang-submenu li a:hover {
         padding: 10px 10px;
     }
 
+    header .logo {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        margin-top: 5px;
+    }
+
     header .logo img {
         margin-top: 0; /* center logo exactly */
         height: 40px; /* slightly smaller on mobile */
@@ -1114,6 +1123,17 @@ nav ul li.lang-dropdown ul.lang-submenu li a:hover {
 
     main {
         padding: 20px;
+    }
+
+    .hero {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .hero div,
+    .hero h1,
+    .hero p {
+        padding: 0;
     }
 
     
