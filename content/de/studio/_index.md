@@ -34,7 +34,7 @@ Internationale Ausbildung und langjährige Berufserfahrung in Deutschland und Eu
 <br>Schwerpunkt: **Denkmalpflege**, **Bauen im Bestand**, **energetische Sanierung**
 
 <details class="cv-toggle" style="margin-top: 1rem;">
-  <summary style="color: #879094; cursor: pointer; list-style: none; margin-left: 0;">Mehr erfahren</summary>
+  <summary style="color: #879094; cursor: pointer; list-style: none; margin-left: 0;">CV</summary>
 
 <br>
 
@@ -46,12 +46,12 @@ Internationale Ausbildung und langjährige Berufserfahrung in Deutschland und Eu
 
 
 **Ausbildung**
-- Master of Architecture, Universidad de Granada
-- Bachelor of Architecture, Universidad de Granada
+- 2016-2017: Master of Architecture, Universidad de Granada
+- 2012-2016: Bachelor of Architecture, Universidad de Granada
 
-Austauschprogramme: 
-- Technische Universität Wien
-- Loyola University Chicago
+<u>Austauschprogramme:</u> 
+- 2013-2014: Technische Universität Wien
+- 2013: Loyola University Chicago
 
 
 **Weiterbildung (Auswahl)**
