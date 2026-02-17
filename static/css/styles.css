@@ -241,8 +241,21 @@ nav ul li.has-dropdown ul.submenu li a {
   display: block;
 }
 
+
+/* Colored submenu item in light mode */
 a.submenu-colored-item {
-    color: black
+  color: black
+}
+
+/* Colored submenu item in dark mode */
+@media (prefers-color-scheme: dark) {
+  a.submenu-colored-item {
+    color: white;
+  }
+
+  .footer-menu li a {
+    color: #9fb1b6 !important;
+  }
 }
 
 
@@ -394,7 +407,7 @@ details.cv-toggle summary::marker {
 
 /* Constrain main content to match cards width */
 .content-width {
-    max-width: 1100px;
+    max-wi2103dth: 1100px;
     margin: 0 auto;
     width: 100%;
     padding: 0 1rem;
@@ -402,6 +415,14 @@ details.cv-toggle summary::marker {
 }
 
 /* Home latest cards label styling to match top menu */
+.cards#home-latest {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 3rem;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
 .cards#home-latest .section-label {
     display: block; /* sit above the card */
     margin: 1rem 0; /* vertical space above and below the label */
@@ -525,10 +546,13 @@ ul.search-results li a {
     max-width: 780px;  /* optional: match content width */
     padding: 0 1rem;    /* optional: add some horizontal padding */
     padding-left: 20px;
+    box-sizing: border-box;
 }
 
 .contact form {
     margin: 0;          /* remove auto centering */
+    width: 100%;
+    box-sizing: border-box;
 }
 
 /* Post Styles */
@@ -1104,6 +1128,21 @@ nav ul li.lang-dropdown ul.lang-submenu li a:hover {
     form {
         padding: 20px;
         margin: 0 auto;
+        width: 100%;
+        max-width: calc(100% - 20px);
+        box-sizing: border-box;
+    }
+
+    .contact {
+        padding: 0;
+        padding-left: 0;
+        margin: 2rem 0;
+        max-width: 100%;
+    }
+
+    .contact form {
+        margin: 0;
+        padding: 0;
     }
 
     .container {
@@ -1136,10 +1175,4 @@ nav ul li.lang-dropdown ul.lang-submenu li a:hover {
         padding: 0;
     }
 
-    
-        /* Menu Section Energieberatung Grün*/
 
-
-header nav.menu ul li#energie > a {
-    color: #2F3E3A;
-}
