@@ -19,6 +19,16 @@
     img {
         opacity: 90%;
     }
+
+.architektur-muted {
+    color: #666;
+}
+
+@media (prefers-color-scheme: dark) {
+    .architektur-muted {
+        color: #9fb1b6;
+    }
+}
 }
 
 /* Font Faces */

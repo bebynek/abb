@@ -9,9 +9,14 @@ title = 'Kontakt'
 <div class="contact-content">
 <p style="font-size: 30px; font-weight: bold;">Kontakt</p>
 
-Kontaktieren Sie mich für Projekte, Kooperationen oder Beratung.
+Kontaktieren Sie mich für Projekte, Kooperationen oder Beratung.<br> Ich freue mich auf Ihre Anfrage.
+<br>
+<br>
 
-Ich freue mich auf Ihre Anfrage.
+**Gerne auch direkt per Telefon oder E-Mail.**
+
+Telefon: +49 1627723647 <br>
+Mail: aga@bebynek.com
 
 <br>
 

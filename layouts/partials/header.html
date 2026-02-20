@@ -11,7 +11,7 @@
     <ul>
 {{- range .Site.Menus.main }}
   <li class="{{ if .HasChildren }}has-dropdown{{ end }}">
-    <a href="{{ .URL | relLangURL }}" {{ if isset .Params "colored" }}class="submenu-colored-item"{{ end }}>{{ .Name }}</a>
+    <a href="{{ .URL | relLangURL }}" {{ if isset .Params "colored" }}class="submenu-colored-item"{{ end }}>{{ .Name }}{{ if .HasChildren }} &#9662;{{ end }}</a>
 
     {{- if .HasChildren }}
       <ul class="submenu">
@@ -35,6 +35,7 @@
   {{ else if eq .Site.Language.Lang "es" }}ES
   {{ else }}{{ .Site.Language.Lang | upper }}
   {{ end }}
+          &#9662;
         </a>
         <ul class="lang-submenu">
           {{- range .Site.Languages }}

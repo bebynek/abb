@@ -11,6 +11,8 @@ url = '/de/studio/'
 
 **Bebynek Architektur** ist ein Architekurbüro mit Schwerpunkt auf Denkmalpflege, Bauen im Bestand und Nachhaltigkeit.
 
+Mit Sitz in Mindelheim betreut das Büro Projekte im Allgäu sowie darüber hinaus, in München, Augsburg und der umliegenden Region.
+
 Die Projekte zeichnen sich durch sorgfältige Analyse, präzise Planung und eine reduzierte, zeitlose Formensprache aus. Ziel ist es, Bestehendes behutsam an heutige Anforderungen anzupassen und langfristig nutzbar zu machen.
 
 Die internationale Ausbildung der Büroinhaberin Aga Bebynek-Bielanska [(LinkedIn Profil)](https://linkedin.com/in/aga-bebynek-bielanska-413b52172) und ihre langjährige Berufserfahrung in Deutschland und Europa prägen die Arbeitsweise des Büros - präzise, zukunftsfähig und kontextbezogen.
@@ -34,7 +36,7 @@ Internationale Ausbildung und langjährige Berufserfahrung in Deutschland und Eu
 <br>Schwerpunkt: **Denkmalpflege**, **Bauen im Bestand**, **energetische Sanierung**
 
 <details class="cv-toggle" style="margin-top: 1rem;">
-  <summary style="color: #879094; cursor: pointer; list-style: none; margin-left: 0;">CV</summary>
+  <summary style="color: #879094; cursor: pointer; list-style: none; margin-left: 0;">CV &#9662;</summary>
 
 <br>
 

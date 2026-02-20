@@ -16,9 +16,7 @@ Die Baubranche ist für einen erheblichen Anteil des CO₂-Ausstoßes und der M�
 
 Eine energetische Sanierung ermöglicht es, bestehende Gebäude effizienter zu nutzen, den Energieverbrauch zu senken, Kosten zu sparen und unabhängiger von steigenden Energiepreisen zu werden. Oft reichen schon einige gezielte Maßnahmen, um den Wohnkomfort deutlich zu erhöhen und gleichzeitig hohe Einsparungen bei den Energiekosten zu erzielen.
 
-**Diese Seite befindet sich derzeit in Bearbeitung.** 
-
-<!--
+<br>
 
 **Meine Leistungen**
 
@@ -53,6 +51,13 @@ Sie profitieren von:
 Vereinbaren Sie ein unverbindliches Erstgespräch, um Ihre Möglichkeiten zu besprechen.
 
 [Jetzt Energieberatung anfragen]({{< relref "kontakt" >}})
--->
+
+<br>
+<br>
+<br>
+
+ <a href="http://www.energie-effizienz-experten.de/" target="_blank">
+      <img src="/images/EE_EnergieeffizienzExperten_Logo_w.png" alt="Energieeffizienz Expertin">
+    </a>
 
 

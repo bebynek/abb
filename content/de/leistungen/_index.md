@@ -18,7 +18,7 @@ In jeder Phase des Projekts wird besonderer Wert auf **Nachhaltigkeit** und **um
 Die Angebotserstellung erfolgt nach persönlicher Projektbesprechung und auf Grundlage der HOAI 2021, Anlage 10 (zu § 34 Absatz 4, § 35 Absatz 7).
 
 <details class="cv-toggle" style="margin-top: 1rem;">
-  <summary style="color: #879094; cursor: pointer; list-style: none; margin-left: 0;">Mehr erfahren</summary>
+  <summary style="color: #879094; cursor: pointer; list-style: none; margin-left: 0;">Mehr erfahren &#9662;</summary>
 
 <br>
 
